@@ -4,16 +4,15 @@ for (let numm = 1; numm <= 15; numm++)
 
     {console.log("FizzBuzz");}
 
-    else if (numm % 3 == 0) 
+else if (numm % 3 == 0) 
         
     {console.log("Fizz");}
 
-    else if (numm % 5 == 0) 
+else if (numm % 5 == 0) 
         
     {console.log("Buzz");}
 
-    else 
-
+else 
     {console.log(numm);}
     
 }

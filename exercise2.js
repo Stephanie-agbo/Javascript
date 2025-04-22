@@ -1,41 +1,32 @@
 
-let num1 = prompt("Enter a number");
+let num1 = parseFloat(prompt("Enter a number"));
 
 let operator = prompt("Enter an operator (e.g, +, -, *, /)");
 
-let num2 = prompt("Enter another number");
-
-let result;
-
+let num2 = parseFloat(prompt("Enter another number"));
 
   if (operator == "+") {
-    result = num1 + num2;
-    alert("The answer is " + result);
+    let result1 = num1 + num2;
+    alert("The answer is "  + result1);
   } 
   
-  else if (operator == "-") {
-    result = num1 - num2;
-    alert("The answer is " + result);
+  if (operator == "-") {
+    let result2 = num1 - num2;
+    alert("The answer is " + result2);
   } 
   
-  else if (operator == "*") {
-    result = num1 * num2;
-    alert("The answer is " + result);
+  if (operator == "*") {
+    let result3 = num1 * num2;
+    alert("The answer is " + result3);
   } 
   
-  else if (operator == "/") {
-    
-    if (num2 == 0) {
-      alert("For now, it cannot go.");
+  if (operator == "/") {
+    let result4 = num1 / num2;
+      alert("The answer is " + result4);
     } 
-    
-    else {
-      result = num1 / num2;
-      alert("The answer is " + result);
-    }
-  } 
   
   else {
-    alert("I don't understand the operator. Please use +, -, *, or /.");
+    alert("Your operator might be wrong. Please use +, -, *, or /.");
   }
 
+  
