@@ -2,12 +2,12 @@
 let random = Math.floor(Math.random() * 5) + 1;
 
 
-let userGuess =(prompt("Guess one number between 1 and 5"));
+let userGuess =parseFloat(prompt("Guess one number between 1 and 5"));
 
 if (userGuess == random) 
     {alert("Your guess was correct!!!");}
 
 else 
-    {alert(`Wrong. The number was ${random}`);}
+    {alert(`Wrong. The number was ${random} `);}
   
 
